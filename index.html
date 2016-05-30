@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
-  </body>
+	<head>
+		<meta charset="utf-8">
+	<title>Pink</title>
+	</head>
+	<body>
+		<header class="page-header">
+			<nav class="main-nav">
+			<!-- не уветен что шапка должна быть именно такой -->
+				<section class="logo"></section>
+				<ul class="main-nav__list">
+					<li><a href="">главная</a></li>
+					<li><a href="">фотографии</a></li>
+					<li><a href="">конкурс</a></li>
+					<li><a href="">html academy</a></li>
+				</ul>
+			</nav>
+			<article class="app-download">
+				<a class="app-download__link" href="">скачать приложение</a>
+				<p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+			</article>
+		</header>
+		<main class="main-page">
+			<article class="intro">
+				<div class="intro__head">
+					<p>Устали от серости мегаполиса?</p>
+					<p>Нам есть, что вам предложить!</p>
+				</div>
+				<section class="intro__item">
+					<h1 class="intro__item-head">Поднимает настроение</h1>
+					<p>Приложение позволит вам победить осенюю хандру и депрессию буквально в несколько кликов</p>
+				</section>
+				<section class="intro__item">
+					<h1 class="intro__item-head">Меняет мир вокруг</h1>
+					<p>Сделай снимок и укрась его смайликом или текстовой подписью? чтобы усилить эффект</p>
+				</section>
+				<section class="intro__item">
+					<h1 class="intro__item-head">Заводи новых друзей</h1>
+					<p>Стась лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+				</section>
+			</article>
+			<article class="review-slider">
+				<section class="review-slider__item">
+					<div class="review-slider__user-name">Николай петров</div>
+					<!-- можно было сделать blockquote но кажется так проще потом стилизовать, хотя симантически не очень верно -->
+					<div class="review-slider__quote">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</div>
+				</section>
+			</article>
+			<article class="options-slider">
+				<section class="options__item">
+					<div class="options__head"></div>
+					<div class="options__list">
+						<div class="option__unit">розовый фильтр</div>
+						<div class="option__unit">смайлики</div>
+						<div class="option__unit">комментарии</div>
+					</div>
+				</section>
+			</article>
+		</main>
+		<footer class="page-footer">
+			<div class="page-footer__header">
+			<!-- много тэгов р? -->
+				<p>Остались вопросы?</p>
+				<p>Связитесь с нами!</p>
+			</div>
+			<section class="page-footer__contacts">
+				<p>Звоните:</p>
+				<tel>+7(812)555-66-66<tel>
+				<p>Пишите:</p>
+				<email>mail@htmlacademy.ru</email>
+				<p>Приезжайте в гости:</p>
+				<!-- не уверен можно ли ставить такой тэг -->
+				<address>ул. Большая Конюшенная 19/8</address>
+			</section>
+		</footer>
+	</body>
 </html>
